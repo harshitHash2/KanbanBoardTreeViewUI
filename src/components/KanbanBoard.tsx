@@ -48,7 +48,7 @@ export default function KanbanBoard() {
 
     setColumns((prev) => {
       const source = prev.find((c) => c.id === fromCol)!;
-      const destination = prev.find((c) => c.id === toCol)!;
+    //   const destination = prev.find((c) => c.id === toCol)!;
 
       const card = source.cards.find((c) => c.id === active.id)!;
 
